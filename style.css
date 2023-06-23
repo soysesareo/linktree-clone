@@ -59,8 +59,8 @@ footer {
 .portafolios {
   display: flex;
   flex-direction: column;
+  
 }
-
 
 /* .portafolio-proyecto {
   display: flex;
@@ -90,8 +90,8 @@ footer {
 }
 
 .tile {
-  width: 100%;
-  height: 56px;
+  width: 93.5%;
+  height: 66px;
   background-color: rgb(37, 37, 37);
   margin: 7px;
   padding: 0 2% 0 2%;
@@ -103,8 +103,8 @@ footer {
 }
 
 .tile:hover {
-  transition: cubic-bezier(0.075, 1.41, 0.82, 1.41) 0.5s;
-  /* transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s; */
+  /* transition: cubic-bezier(0.075, 1.41, 0.82, 1.41) 0.5s; */
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
   transform: scale(1.02);
 }
 
